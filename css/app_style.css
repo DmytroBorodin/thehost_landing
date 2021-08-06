@@ -1,0 +1,465 @@
+@font-face {
+  font-family: "SF UI display light";
+  src: url("../fonts/sf-ui-display-light.woff");
+}
+
+@font-face {
+  font-family: "SF UI display medium";
+  src: url("../fonts/sf-ui-display-medium.woff");
+}
+
+/*Reset*/
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a,
+img,
+button,
+input {
+  display: block;
+}
+
+input::-webkit-input-placeholder {
+  font-family: "SF UI display medium" !important;
+}
+
+input::-moz-placeholder {
+  font-family: "SF UI display medium" !important;
+}
+
+input::-ms-placeholder {
+  font-family: "SF UI display medium" !important;
+}
+
+input::-webkit-input-placeholder {
+  font-family: "SF UI display medium" !important;
+}
+
+input:-ms-input-placeholder {
+  font-family: "SF UI display medium" !important;
+}
+
+input::-ms-input-placeholder {
+  font-family: "SF UI display medium" !important;
+}
+
+input::placeholder {
+  font-family: "SF UI display medium" !important;
+}
+
+a,
+img,
+button {
+  cursor: pointer;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-family: "SF UI display medium";
+}
+
+a {
+  text-decoration: none;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*Main settings*/
+html {
+  font-size: 10px;
+  font-family: "SF UI display medium";
+  font-weight: 400;
+  color: #000;
+}
+
+.page__wrapper {
+  width: 100%;
+  max-width: 102.4rem;
+  margin: auto;
+}
+
+.row,
+.column {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row.align__start,
+.column.align__start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.row.align__center,
+.column.align__center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row.align__end,
+.column.align__end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.row.align__stretch,
+.column.align__stretch {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.row.justify__start,
+.column.justify__start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.row.justify__end,
+.column.justify__end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.row.justify__center,
+.column.justify__center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row.justify__between,
+.column.justify__between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.row.justify__around,
+.column.justify__around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.row.flex__wrap,
+.column.flex__wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.base__color {
+  color: #000;
+}
+
+.text__center {
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  padding-top: 55.44%;
+}
+
+.header__container {
+  position: absolute;
+  bottom: 0;
+  width: 95.225%;
+  height: 94.74%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 1.2rem;
+  background-image: url("../imgs/app_bg.png");
+  background-size: cover;
+}
+
+.app__title {
+  width: 67.4%;
+  margin: 19.08% auto 12.4%;
+  padding: 0 1rem;
+  background-color: rgba(255, 255, 255, 0.16);
+  font-family: "SF UI display light";
+  color: #0d337a;
+  font-size: 5rem;
+  line-height: 1.33;
+}
+
+.subtitles__block {
+  width: 93.33%;
+  margin: auto;
+  padding: 2.22% 4.73%;
+  font-size: 2.4rem;
+  font-family: "SF UI display medium";
+  line-height: 1.33;
+  background-color: #fff;
+  border-radius: 1rem;
+  border: 0.1rem solid #8089a2;
+}
+
+.section_1 {
+  padding: 7.16% 4.5% 5.17% 7.42%;
+  border-bottom: 0.1rem solid #d8d8d8;
+}
+
+.section_1 form {
+  width: 100%;
+}
+
+.section_1 form input {
+  width: 74.69%;
+  padding: 1.98% 1.825% 1.98% 2.74%;
+  border-radius: 2.4rem;
+  border: 0.1rem solid #cbd2e1;
+  background-color: #fff;
+  font-size: 2.2rem;
+}
+
+.section_1 form input::-webkit-input-placeholder {
+  color: #7d7d7d;
+  font-family: "SF UI display light" !important;
+}
+
+.section_1 form input:-ms-input-placeholder {
+  color: #7d7d7d;
+  font-family: "SF UI display light" !important;
+}
+
+.section_1 form input::-ms-input-placeholder {
+  color: #7d7d7d;
+  font-family: "SF UI display light" !important;
+}
+
+.section_1 form input::placeholder {
+  color: #7d7d7d;
+  font-family: "SF UI display light" !important;
+}
+
+.record__btn {
+  width: 10%;
+  padding-top: 8%;
+  border-radius: 2.4rem;
+  border: 0.1rem solid #cbd2e1;
+  background-image: url("../imgs/microphone.png");
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.section_2 {
+  padding: 3.58% 3.71% 5.84%;
+  border-bottom: 0.1rem solid #8089a2;
+}
+
+.section__title {
+  font-family: "SF UI display light";
+  font-size: 2.3rem;
+  line-height: 1.3;
+}
+
+.main__section__link {
+  font-size: 1.7rem;
+  line-height: 1.3;
+  color: #3e92ff;
+  text-decoration: underline;
+}
+
+.help__container {
+  max-width: 60rem;
+  margin: -1.43% auto 0;
+}
+
+.help__block {
+  position: relative;
+  width: 30.1%;
+  margin: 5.73% 0 0 0;
+  padding: 4.78% 0 4.3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fcfdff;
+  border: 0.1rem solid #cbd2e1;
+  border-radius: 1.2rem;
+}
+
+.help__block__icon {
+  width: auto;
+  max-width: 5rem;
+  margin-bottom: 4.48%;
+}
+
+.main__text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.333;
+  font-family: "SF UI display light";
+}
+
+.border__block {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 80%;
+  -webkit-transform: translate(-50%, 100%);
+          transform: translate(-50%, 100%);
+  height: 0.2rem;
+}
+
+.border__block.cl_1 {
+  background-color: #3e92ff;
+}
+
+.border__block.cl_2 {
+  background-color: #25d494;
+}
+
+.border__block.cl_3 {
+  background-color: #425881;
+}
+
+.border__block.cl_4 {
+  background-color: #fc6f1a;
+}
+
+.border__block.cl_5 {
+  background-color: #7f70fc;
+}
+
+.border__block.cl_6 {
+  background-color: #8089a2;
+}
+
+.border__block.cl_7 {
+  background-color: #d81830;
+}
+
+.border__block.cl_8 {
+  background-color: #f8c317;
+}
+
+.border__block.cl_9 {
+  background-color: #b0b8c8;
+}
+
+.border__block.cl_10 {
+  background-color: #aea4ff;
+}
+
+.border__block.cl_11 {
+  background-color: #ff9250;
+}
+
+.border__block.cl_12 {
+  background-color: #fede76;
+}
+
+.section_3 {
+  padding: 3.58% 3.71% 5.84%;
+}
+
+@media screen and (max-width: 768px) {
+  .app__title {
+    font-size: 3.2rem;
+  }
+  .subtitles__block {
+    font-size: 2rem;
+  }
+  .section_1 form input {
+    padding: 2.98% 2.825% 2.98% 3.74%;
+    border-radius: 1.2rem;
+    font-size: 1.6rem;
+  }
+  .record__btn {
+    border-radius: 1.2rem;
+  }
+  .section__title {
+    font-size: 1.7rem;
+  }
+  .main__section__link {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header__container {
+    border-radius: 0.6rem;
+  }
+  .app__title {
+    font-size: 2.4rem;
+  }
+  .subtitles__block {
+    font-size: 1.5rem;
+    border-radius: 0.6rem;
+  }
+  .section_1 form {
+    width: 100%;
+  }
+  .section_1 form input {
+    padding: 3.96% 3.65% 3.96% 5.48%;
+    border-radius: 1.2rem;
+  }
+  .record__btn {
+    width: 15.244%;
+    padding-top: 13.71%;
+  }
+  .help__block__icon {
+    max-width: 3.5rem;
+  }
+  .main__text {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .app__title {
+    width: 80%;
+  }
+  .section_1 form input {
+    font-size: 1.2rem;
+  }
+}
+/*# sourceMappingURL=app_style.css.map */
