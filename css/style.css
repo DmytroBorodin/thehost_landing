@@ -86,10 +86,15 @@ html {
   color: #404040;
 }
 
+body {
+  overflow: hidden;
+}
+
 .body {
   position: relative;
   overflow: hidden;
   overflow-y: scroll;
+  max-height: 100vh;
 }
 
 .body.locked {
