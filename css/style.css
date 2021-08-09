@@ -86,13 +86,13 @@ html {
   color: #404040;
 }
 
-body {
+.body {
   position: relative;
   overflow: hidden;
   overflow-y: scroll;
 }
 
-body.locked {
+.body.locked {
   overflow-y: hidden;
 }
 

@@ -1,6 +1,6 @@
 const appWrapper = document.querySelector(".app__wrapper");
 const opentBtn = document.querySelector(".open__btn");
-const body = document.querySelector("body");
+const body = document.querySelector(".body");
 
 console.log(document.innerWidth);
 
